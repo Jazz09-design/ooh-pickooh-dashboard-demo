@@ -196,34 +196,40 @@
     if ($("#demoSegmentReach")) $("#demoSegmentReach").textContent = "—";
   }
 
-  // ===== Mini map (Leaflet) =====
-  let map = null;
-  let marker = null;
-  function ensureMap(){
-    const el = document.querySelector("#miniMapLeaflet");
-    if (!el) return;
-    if (map) return;
+  // ===== Mini map (Google Embed) =====
+function updateMap(site){
+  const el = document.querySelector("#miniMapLeaflet");
+  if (!el) return;
 
-    map = L.map(el, { zoomControl: true, scrollWheelZoom: false });
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: '&copy; OpenStreetMap'
-    }).addTo(map);
+  // fallback if lat/lng missing
+  const lat = Number(site?.lat ?? site?.latitude);
+  const lng = Number(site?.lng ?? site?.lon ?? site?.longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+    el.innerHTML = `<div style="padding:12px;border:1px solid #e5e7eb;border-radius:12px;background:#fff">
+      Map tidak tersedia (koordinat belum ada).
+    </div>`;
+    return;
   }
-  function updateMap(site){
-    const el = document.querySelector("#miniMapLeaflet");
-    if (!el) return;
-    if (!site || site.lat == null || site.lon == null) return;
 
-    ensureMap();
-    if (!map) return;
+  const q = encodeURIComponent(`${lat},${lng}`);
+  const embedSrc = `https://www.google.com/maps?q=${q}&z=15&output=embed`;
+  el.innerHTML = `
+    <div style="position:relative;width:100%;height:360px;border-radius:12px;overflow:hidden;background:#f3f4f6">
+      <iframe
+        title="Map"
+        src="${embedSrc}"
+        width="100%"
+        height="360"
+        style="border:0"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  `;
 
-    const latlng = [site.lat, site.lon];
-    map.setView(latlng, 15);
-    if (marker) marker.remove();
-    marker = L.marker(latlng).addTo(map);
-    marker.bindPopup(site.name || site.site_code).openPopup();
-  }
+  // set "Open in Maps" link if exists
+  const open = document.querySelector("#miniMapOpenLink");
+  if (open) open.href = `https://www.google.com/maps?q=${q}`;
+}
 
   // ===== UI bind =====
   function setSelectOptions(sel, options, selectedValue){
