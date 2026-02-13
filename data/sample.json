@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "default": {
+      "site_id": 1,
+      "site_name": "1",
+      "city": "Bandung",
+      "type_ooh": "Billboard Vertical",
+      "month": "2025-12",
+      "date_from": "2025-12-01",
+      "date_to": "2025-12-31"
+    }
+  },
+  "locations": [
+    {
+      "id": 1,
+      "name": "NO.",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2,
+      "name": "1",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3,
+      "name": "2",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 4,
+      "name": "3",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 5,
+      "name": "4",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 6,
+      "name": "5",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 7,
+      "name": "6",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 8,
+      "name": "7",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 9,
+      "name": "8",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 10,
+      "name": "9",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 11,
+      "name": "10",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12,
+      "name": "11",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 13,
+      "name": "12",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 14,
+      "name": "13",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 15,
+      "name": "14",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 16,
+      "name": "15",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 17,
+      "name": "16",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 18,
+      "name": "17",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 19,
+      "name": "18",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 20,
+      "name": "19",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 21,
+      "name": "20",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 22,
+      "name": "21",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 23,
+      "name": "22",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 24,
+      "name": "23",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 25,
+      "name": "24",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 26,
+      "name": "25",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 27,
+      "name": "26",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 28,
+      "name": "27",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 29,
+      "name": "28",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 30,
+      "name": "29",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 31,
+      "name": "30",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 32,
+      "name": "31",
+      "city": "",
+      "type_ooh": "",
+      "lat": null,
+      "lon": null
+    }
+  ],
+  "kpi": {
+    "monthly_impressions": 275109600,
+    "reach_impressions": 835000,
+    "traffic_score": 86.0,
+    "poi_score": 87.0,
+    "demographic_score": 87.0,
+    "total_score": 87.0
+  },
+  "traffic": {
+    "daily": [
+      {
+        "x": "2025-12-01",
+        "impressions": 148037,
+        "reach": 118157
+      },
+      {
+        "x": "2025-12-02",
+        "impressions": 148642,
+        "reach": 118809
+      },
+      {
+        "x": "2025-12-03",
+        "impressions": 149333,
+        "reach": 119019
+      },
+      {
+        "x": "2025-12-04",
+        "impressions": 149640,
+        "reach": 119120
+      },
+      {
+        "x": "2025-12-05",
+        "impressions": 150598,
+        "reach": 118627
+      },
+      {
+        "x": "2025-12-06",
+        "impressions": 132074,
+        "reach": 102911
+      },
+      {
+        "x": "2025-12-07",
+        "impressions": 131035,
+        "reach": 102573
+      },
+      {
+        "x": "2025-12-08",
+        "impressions": 149013,
+        "reach": 118000
+      },
+      {
+        "x": "2025-12-09",
+        "impressions": 148394,
+        "reach": 117998
+      },
+      {
+        "x": "2025-12-10",
+        "impressions": 147772,
+        "reach": 117858
+      },
+      {
+        "x": "2025-12-11",
+        "impressions": 147880,
+        "reach": 117445
+      },
+      {
+        "x": "2025-12-12",
+        "impressions": 147120,
+        "reach": 117841
+      },
+      {
+        "x": "2025-12-13",
+        "impressions": 147389,
+        "reach": 117688
+      },
+      {
+        "x": "2025-12-14",
+        "impressions": 129972,
+        "reach": 100927
+      },
+      {
+        "x": "2025-12-15",
+        "impressions": 150662,
+        "reach": 119823
+      },
+      {
+        "x": "2025-12-16",
+        "impressions": 147600,
+        "reach": 117818
+      },
+      {
+        "x": "2025-12-17",
+        "impressions": 146692,
+        "reach": 117077
+      },
+      {
+        "x": "2025-12-18",
+        "impressions": 146161,
+        "reach": 117067
+      },
+      {
+        "x": "2025-12-19",
+        "impressions": 147209,
+        "reach": 117658
+      },
+      {
+        "x": "2025-12-20",
+        "impressions": 146886,
+        "reach": 117590
+      },
+      {
+        "x": "2025-12-21",
+        "impressions": 129849,
+        "reach": 102358
+      },
+      {
+        "x": "2025-12-22",
+        "impressions": 148526,
+        "reach": 118017
+      },
+      {
+        "x": "2025-12-23",
+        "impressions": 149266,
+        "reach": 118368
+      },
+      {
+        "x": "2025-12-24",
+        "impressions": 149930,
+        "reach": 119540
+      },
+      {
+        "x": "2025-12-25",
+        "impressions": 150339,
+        "reach": 118960
+      },
+      {
+        "x": "2025-12-26",
+        "impressions": 149972,
+        "reach": 118767
+      },
+      {
+        "x": "2025-12-27",
+        "impressions": 149950,
+        "reach": 118757
+      },
+      {
+        "x": "2025-12-28",
+        "impressions": 130925,
+        "reach": 102156
+      },
+      {
+        "x": "2025-12-29",
+        "impressions": 150522,
+        "reach": 120026
+      },
+      {
+        "x": "2025-12-30",
+        "impressions": 146970,
+        "reach": 117253
+      },
+      {
+        "x": "2025-12-31",
+        "impressions": 146008,
+        "reach": 117491
+      }
+    ],
+    "weekly": [
+      {
+        "x": "2025-12-01 s/d 2025-12-07",
+        "impressions": 144194,
+        "reach": 114173
+      },
+      {
+        "x": "2025-12-08 s/d 2025-12-14",
+        "impressions": 145362,
+        "reach": 115393
+      },
+      {
+        "x": "2025-12-15 s/d 2025-12-21",
+        "impressions": 145008,
+        "reach": 115627
+      },
+      {
+        "x": "2025-12-22 s/d 2025-12-28",
+        "impressions": 146986,
+        "reach": 116366
+      },
+      {
+        "x": "2025-12-29 s/d 2025-12-31",
+        "impressions": 147833,
+        "reach": 118256
+      }
+    ],
+    "monthly": [
+      {
+        "x": "2025-12",
+        "impressions": 145624,
+        "reach": 115667
+      }
+    ],
+    "hourly": [
+      {
+        "x": "00:00",
+        "value": 898
+      },
+      {
+        "x": "01:00",
+        "value": 863
+      },
+      {
+        "x": "02:00",
+        "value": 1085
+      },
+      {
+        "x": "03:00",
+        "value": 935
+      },
+      {
+        "x": "04:00",
+        "value": 1131
+      },
+      {
+        "x": "05:00",
+        "value": 2482
+      },
+      {
+        "x": "06:00",
+        "value": 5374
+      },
+      {
+        "x": "07:00",
+        "value": 9375
+      },
+      {
+        "x": "08:00",
+        "value": 12071
+      },
+      {
+        "x": "09:00",
+        "value": 10948
+      },
+      {
+        "x": "10:00",
+        "value": 8274
+      },
+      {
+        "x": "11:00",
+        "value": 6115
+      },
+      {
+        "x": "12:00",
+        "value": 5534
+      },
+      {
+        "x": "13:00",
+        "value": 5690
+      },
+      {
+        "x": "14:00",
+        "value": 6688
+      },
+      {
+        "x": "15:00",
+        "value": 8835
+      },
+      {
+        "x": "16:00",
+        "value": 11532
+      },
+      {
+        "x": "17:00",
+        "value": 12403
+      },
+      {
+        "x": "18:00",
+        "value": 10411
+      },
+      {
+        "x": "19:00",
+        "value": 7199
+      },
+      {
+        "x": "20:00",
+        "value": 3794
+      },
+      {
+        "x": "21:00",
+        "value": 1915
+      },
+      {
+        "x": "22:00",
+        "value": 1288
+      },
+      {
+        "x": "23:00",
+        "value": 775
+      }
+    ],
+    "insights": {
+      "peak_morning": "08:00",
+      "peak_evening": "17:00",
+      "best_day_impressions": "2025-12-15",
+      "best_day_reach": "2025-12-15"
+    }
+  }
+}
