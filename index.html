@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outdoor Media Analytics Dashboard</title>
+  <style>
+    :root{--brand:#2b6cff;--bg:#0b1a3a;}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#e9f0f6;}
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      background:
+        radial-gradient(900px 600px at 20% 40%, rgba(255,255,255,.55) 0%, rgba(255,255,255,0) 60%),
+        linear-gradient(180deg, #1a4e9a 0%, #0b1a3a 100%);
+    }
+    .panel{
+      width: min(980px, 100%);
+      border-radius: 18px;
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.15);
+      box-shadow: 0 18px 60px rgba(0,0,0,.25);
+      padding: 34px;
+      color:#fff;
+    }
+    .top{
+      display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    }
+    h1{margin:0;font-size:34px;letter-spacing:.2px;}
+    p{margin:10px 0 0;color:rgba(255,255,255,.85)}
+    .btns{display:flex; gap:10px; flex-wrap:wrap;}
+    .btn{
+      border:0; border-radius:12px; padding:10px 16px;
+      font-weight:800; cursor:pointer; font-size:14px;
+    }
+    .btn.primary{background:#ffffff;color:#0b1a3a;}
+    .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.2);}
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:18px;
+      margin-top:22px;
+    }
+    @media (max-width:900px){ .grid{grid-template-columns:1fr;} }
+    .mock{
+      background: rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.15);
+      border-radius: 16px;
+      padding:18px;
+      min-height:220px;
+    }
+    .kpis{display:grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap:10px; margin-top:12px;}
+    @media (max-width:900px){ .kpis{grid-template-columns: repeat(2, minmax(0,1fr));} }
+    .kpi{background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.15); border-radius:14px; padding:12px;}
+    .kpi .n{font-size:18px;font-weight:900}
+    .kpi .l{font-size:12px;color:rgba(255,255,255,.8);margin-top:4px}
+    .note{margin-top:14px; font-size:13px; color:rgba(255,255,255,.75)}
+    a{color:#fff}
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="panel">
+      <div class="top">
+        <div>
+          <h1>Outdoor Media Analytics Dashboard</h1>
+          <p>Analisis Traffic, Demografi, POI, dan Insight Lokasi</p>
+        </div>
+        <div class="btns">
+          <button class="btn primary" id="btnDemo">Lihat Demo</button>
+          <button class="btn ghost" id="btnLogin">Masuk</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="mock">
+          <div style="font-weight:900;margin-bottom:6px;">Preview (Demo)</div>
+          <div class="kpis">
+            <div class="kpi"><div class="n">1.25 M</div><div class="l">Total Impression</div></div>
+            <div class="kpi"><div class="n">82</div><div class="l">Traffic Score</div></div>
+            <div class="kpi"><div class="n">78</div><div class="l">Tech. Score</div></div>
+            <div class="kpi"><div class="n">78</div><div class="l">Demo. Score</div></div>
+            <div class="kpi"><div class="n">85</div><div class="l">Overall</div></div>
+          </div>
+          <div class="note">Demo bersifat read-only. Untuk akses penuh, silakan login.</div>
+        </div>
+
+        <div class="mock">
+          <div style="font-weight:900;margin-bottom:10px;">Akun Demo</div>
+          <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.9)">
+          </div>
+          <div class="note" style="margin-top:12px">
+            Klik <b>Lihat Demo</b> untuk masuk tanpa login.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    document.getElementById('btnLogin').addEventListener('click', () => {
+      window.location.href = 'login.html';
+    });
+    document.getElementById('btnDemo').addEventListener('click', () => {
+      window.OMA_AUTH?.enterDemo();
+      window.location.href = 'dashboard.html';
+    });
+  </script>
+</body>
+</html>
